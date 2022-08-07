@@ -1,3 +1,8 @@
+/* 背景色や文字の色などは、それぞれの色と最も合う組み合わせにしました。
+　　　　　　目に優しくするために、彩度や明度を少し下げました。
+　　　　　　背景はシンプルな色の方が、他の情報も目に入りやすいと思ったので、明るい印象が強い黄色を背景にしました。
+　　　　　　また、後で見返した時に変更しやすいよう、CSSの書く順番を、htmlのコードの順番と同じにしました。*/
+
 body {
     background-color: #FAC61E;
     color: white;
@@ -10,18 +15,18 @@ body {
 h1 {
     font-family: "Nico Moji";
     font-size: 70px;
-    text-shadow: 2px 2px 3px #000;
+    text-shadow: 2px 2px 3px #000;/* 小さめの影をつけることで、完全な影を作らず、立体感を出しました。 */
 }
 
 .negative-font{
     font-family: 'Yomogi', cursive;
-    text-shadow: 2px 2px 2px #000;
+    text-shadow: 1px 1px 1px #000;/* ネガティブな印象を与えるために、フォントを細くて曲線が多いものにし、影を小さくしました。また、「ポジティブに〜」との文字の大きさの差をつけるために、あえてフォントサイズは指定しませんでした。*/
 }
 
 .makeover-bigger-positive-font{
     font-size: 30px;
     font-family: 'Reggae One', cursive;
-    text-shadow: 5px 5px 5px #000;
+    text-shadow: 5px 5px 5px #000;/* ポジティブな印象を与えるために、派手で太いフォントにし、影を大きめにしました。*/
 }
 
 input {
@@ -44,10 +49,10 @@ button {
     min-height: 1rem;
     font-size: 1.2rem;
     box-shadow: 2px 2px 3px #000;
-    color: white;
+    color: white;/* 一目でボタンと分かるよう、テキストボックスと比べて、角をより丸めました。*/
 }
 
 #source{
     position: absolute;
-    bottom: 0;
+    bottom: 0;/* 私が今まで見たことのあるウェブサイトでは、出典はページ下にあることが多かったので、下に配置しました。*/
 }
