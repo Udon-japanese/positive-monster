@@ -1,2 +1,2 @@
-# positiveMonster
+# positive-monster
 ポジティブモンスター
