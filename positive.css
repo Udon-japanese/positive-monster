@@ -1,0 +1,48 @@
+body {
+    background-color: #FAC61E;
+    color: white;
+    width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Nico Moji";
+    font-size: 70px;
+    text-shadow: 2px 2px 3px #000;
+}
+
+.negative-font{
+    font-family: 'Yomogi', cursive;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.makeover-bigger-positive-font{
+    font-size: 30px;
+    font-family: 'Reggae One', cursive;
+    text-shadow: 5px 5px 5px #000;
+}
+
+input {
+    width: 70%;
+    height: 2.5rem;
+    border: 2px solid blue;
+    border-radius: 5px;
+    min-height: 1rem;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 3px #000;
+    text-align: center;
+}
+
+button {
+    width: 50%;
+    height: 2.5rem;
+    border: 6px solid red;
+    background-color: rgb(20, 141, 100);
+    border-radius: 20px;
+    min-height: 1rem;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 3px #000;
+    color: white;
+}
