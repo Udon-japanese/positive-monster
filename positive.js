@@ -18,5 +18,5 @@ positiveButton.onclick = () => {
 
 function negativeMakeOver(){
     const negativeEncoded = negativeInput.value;
-    window.open(`https://worddrow.net/searchReverse?keyword=${encodeURIComponent(negativeEncoded)}`);
+    window.open(`https://thesaurus.weblio.jp/antonym/content/${encodeURIComponent(negativeEncoded)}`);
 }//encodeURIComponent()で、入力された単語をパーセントエンコーディングし、それをURLの後ろに付け足す。何度も違う単語で試せるよう、別タブで開くようにした。
