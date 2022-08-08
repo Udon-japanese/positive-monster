@@ -30,12 +30,12 @@ h1 {
 }
 
 input {
-    width: 75%;
+    width: 77%;
     height: 2.5rem;
     border: 2px solid blue;
     border-radius: 5px;
     min-height: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     box-shadow: 2px 2px 3px #000;
     text-align: center;
 }
@@ -47,7 +47,7 @@ button {
     background-color: rgb(20, 141, 100);
     border-radius: 20px;
     min-height: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     box-shadow: 2px 2px 3px #000;
     color: white;/* 一目でボタンと分かるよう、テキストボックスと比べて、角をより丸めました。*/
 }
